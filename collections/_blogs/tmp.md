@@ -8,22 +8,19 @@ hidden: false
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
 
 ## 教員付加価値を用いた教員効果の測定について
-教員の効果を測定する手法として、非常に頻繁に用いられるのは教員付加価値である。これは教育生産関数のインプットというより、むしろアウトプットを評価しているという点に注意を払う必要がある。すなわち、一般に教員能力といえば子供の人的資本を促進するものだと考えるが、ここではその結果である。そのため、この教員効果がインプットにもなりうるという点は別で評価する必要がある(→教員付加価値のcausal impactを評価する一連の研究)。
-
+教員の質や効果を測定する手法として頻繁に用いられるのは教員付加価値である。教員付加価値は「教員が担当した子どものアウトプット（往々にして学力を指す）の平均的な増加分」として定義される（Jackson et al., 2014)
 多くの場合教員効果を推定するときは、次の様なモデル化を行う（Jackson, Rockoff & Staiger(2014)に従っているが、文中での意図と書かれている数式が違うと思うので勝手に直している。）。
 
 
 $$A _ { ijt } = \beta X _ { ijt } + \nu _ { ijt }  \quad where \quad \nu _ { ijt } = \theta _ { j } + \mu _ { jt } + \varepsilon _ { ijt }$$
 
 iは生徒、jは教員、tは時間を指し、Aは教育成果、Xは生徒の個人特性、$\nu$は観察不可能な要因を表す。$\nu$は教員効果$\theta$、クラスルーム効果$\mu$、その他の要因$\varepsilon$で構成されるとする。
-上記式から$A _ { i t }  - \beta X _ { i t } $は教員効果$\theta$についての情報を持つがその中には今関心がないノイズである$\mu$と$\varepsilon$を含んでいる。そのため、多くの研究はsingal extraction問題を解くことで教員効果を推定している。
+上記式から$A _ { i t }  - \beta X _ { i t } $は教員効果$\theta$についての情報を持つがその中には今関心がないノイズである$\mu$と$\varepsilon$を含んでいる。そのため多くの研究はsingal extraction問題を解くことで教員効果を推定していくことになる。
 
-#### Signal Extraction for Teacher Fixed Effect
+#### signal extraction 定理を用いた教員付加価値の推定
 ノイズを含む信号から真の情報を抽出する問題を一般にsingal extractionと言う。
 よく使う定理として次を挙げることができる。
 
-
-##### signal extraction 定理を用いた教員付加価値の推定
 --- 
 **signal extraction 定理**\\
 $\theta$についてのpriorとして
@@ -46,7 +43,7 @@ $$
 \end{eqnarray}
 $$
 
-この時、$\theta$に関する予想は
+この時、$\theta$に関する期待値は
 
 $$
 \begin{eqnarray}
@@ -58,14 +55,12 @@ $$
 \end{eqnarray}
 $$
 
-となるように更新される。
-
-直感的にはpriorも含めて情報の正確さで重み付けをしていって、fundamental variableを更新していく手続きである。
-
+と更新される。
 ---
+上記定理を直感的に解釈すると、上記定理ではpriorをも含めた様々な情報をその正確さで重み付けをしていってfundamental variableを更新していく手続きが描写されている。
 
 
-この時、先の教育生産関数の式は教員効果$\theta _ {j}$についての次の様なシグナルなのではないかと考えることができる。
+この定理を教員付加価値推定に応用していく。この時、先の教育生産関数の式は教員効果$\theta _ {j}$についての次の様なシグナルなのではないかと考えることができる。
 
 $$ s_{ijt} = A _ { ijt } - \beta X_{ ijt } =  \theta _ {j} + \mu _ {jt} + \varepsilon _ {ijt}$$
 
