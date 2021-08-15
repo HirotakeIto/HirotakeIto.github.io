@@ -3,7 +3,7 @@ layout:
 title: tmp
 date_post: 20190408
 tags: survey
-hidden: true
+hidden: false
 ---
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
 
