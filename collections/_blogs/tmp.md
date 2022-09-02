@@ -1,5 +1,5 @@
 ---
-layout:
+layout: blog
 title: 教員付加価値を用いた教員効果の測定について
 date_post: 20190408
 tags: survey
