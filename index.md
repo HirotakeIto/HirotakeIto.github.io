@@ -52,7 +52,6 @@ Year | Description
 2017 | データアナリスト（ヘルスケア系コンサルティング会社）
 2018 | 慶應義塾大学政策メディア研究科特任助教
 2021 | データアナリティクス業務(インターネット広告事業会社)
-2021 | データアナリティクス業務(インターネット広告事業会社)
 
 
 This page is powered by [researcher template](https://github.com/ankitsultana/researcher)
