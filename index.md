@@ -35,16 +35,23 @@ https://github.com/HirotakeIto/peer_fixed_effect
 
 https://github.com/HirotakeIto/teacher_va
 
-
-## Education and Career
+## Education
 
 Year | Description
 -----|-------
-2014 | 一橋大学経済学学士取得
-2015 | 一橋大学経済学修士取得
+2014 | 学士(経済学、一橋大学)
+2015 | 修士(経済学、一橋大学)
+2021 | 博士(学術、慶應大学)
+
+
+## Career
+
+Year | Description
+-----|-------
 2015 | リスクマネジメント業務、マネージャー（資産運用会社）
 2017 | データアナリスト（ヘルスケア系コンサルティング会社）
 2018 | 慶應義塾大学政策メディア研究科特任助教
+2021 | データアナリティクス業務(インターネット広告事業会社)
 2021 | データアナリティクス業務(インターネット広告事業会社)
 
 
