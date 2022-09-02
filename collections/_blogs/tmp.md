@@ -1,6 +1,6 @@
 ---
-layout: 
-title: tmp
+layout:
+title: 教員付加価値を用いた教員効果の測定について
 date_post: 20190408
 tags: survey
 hidden: false
@@ -21,14 +21,14 @@ iは生徒、jは教員、tは時間を指し、Aは教育成果、Xは生徒の
 ノイズを含む信号から真の情報を抽出する問題を一般にsingal extractionと言う。
 教員付加価値の推定ではこの問題設定を援用するが、その際によく使う定理として次を挙げることができる。
 
---- 
+---
 **定理**\\
 $\theta$についてのpriorとして
 
   $$
 \begin{eqnarray}
-   E(\theta) &=& m \\ 
-   V(\theta) &=& 1/\rho 
+   E(\theta) &=& m \\
+   V(\theta) &=& 1/\rho
  \end{eqnarray}
   $$
 
@@ -47,11 +47,11 @@ $$
 
 $$
 \begin{eqnarray}
-   E(\theta | X) &=& \frac{\rho}{\rho ^ { \prime }} m 
-    + \sum _ { i = 1, i \in I} \frac{\rho_i}{\rho ^ { \prime }} x _ { i } \\ 
+   E(\theta | X) &=& \frac{\rho}{\rho ^ { \prime }} m
+    + \sum _ { i = 1, i \in I} \frac{\rho_i}{\rho ^ { \prime }} x _ { i } \\
    V(\theta | X) &=& 1 / \rho ^ { \prime }  \\
    && where \\
-   \rho ^ { \prime } &=& \rho + \sum _ { i = 1, i \in I}  \rho _ { i } 
+   \rho ^ { \prime } &=& \rho + \sum _ { i = 1, i \in I}  \rho _ { i }
 \end{eqnarray}
 $$
 
@@ -69,7 +69,7 @@ $$ s_{ijt} = A _ { ijt } - \beta X_{ ijt } =  \theta _ {j} + \mu _ {jt} + \varep
 
 ただし先ほどのsignal extractionのセットアップだとシグナルのノイズ間に相関がないというセットアップだったので、このままでは使えない。そのため、次の様なセットアップに書き直す（害はない）。教員jがt期に担当している生徒を$I_{jt}$と書けば、
 
-$$ 
+$$
 \begin{eqnarray}
 s_{jt} &=& \frac{\sum_{i, i \in I_{jt}} s_{ijt}}{\|I_{jt}\|} \\
          &=& \theta _ {j} + \mu _ {jt} + \frac{\sum_{i, i \in I_{jt}} \varepsilon _ {ijt}}{\|I_{jt}\|} \\
@@ -96,13 +96,13 @@ s_{j} = \theta _ {j} + \frac{\sum_{t, t \in T} v_{jt}}{ \|\| T \|\| }
 \end{eqnarray}
 と書いて、$V(\frac{\sum_{t, t \in T} v_{jt}}{\|T\|}) = \frac{V(v_j)}{\|T\|}$と書くことで($V(v_j)$というものをどっかから調達してくるということ)、
 
-$$ 
+$$
 \begin{eqnarray}
-   E(\theta | s_j ) 
+   E(\theta | s_j )
    &=& s_{j} \times \frac{ \frac{1}{\frac{V(v_j)}{\|T\|}}}{ \frac{1}{V(\theta)} + \frac{1}{\frac{V(v_j)}{\|T\|}} } \\
    &=& s_{j} \times \frac{V(\theta)}{V(\theta) + \frac{V(v_j)}{\|T \|}}
 \end{eqnarray}
-$$ 
+$$
 
 と教員効果を構成している。
 

@@ -3,7 +3,7 @@ layout: blog
 title: クラス構成に関する研究
 date_post: 2019090726
 tags: survey education
-hidden: false
+hidden: true
 ---
 # クラス構成に関する研究
 ピアエフェクトの研究は非常に辛いものがある。しかし、ピアエフェクトそのものではなく、クラス構成に関する研究だったらもうちょっとなんとかなるのでは？
@@ -71,11 +71,11 @@ hidden: false
 　ごめんこことは関係ないんだけど、"household-time-use models"をもとに議論していて面白そう
 
 * Origins of Gender Norms: Sibling Gender Composition and Women's Choice of Occupation and Partner
-  
+
   すごそう
 
 * Ammermueller, A., & Pischke, J. S. (2009). Peer effects in European primary schools: Evidence from the progress in international reading literacy study. Journal of Labor Economics, 27(3), 315-348.
-  - ' The identification relies on variation across classes within schools, which we argue are formed roughly randomly. ' 
+  - ' The identification relies on variation across classes within schools, which we argue are formed roughly randomly. '
   ほんまかな〜
 
 * Burke, M. A., & Sass, T. R. (2013). Classroom peer effects and student achievement. Journal of Labor Economics, 31(1), 51-82.
