@@ -33,9 +33,9 @@ sass:
 nav:
  - name: "About"
    link: / # root
- - name: "Resume"
-   link: /resume.pdf
  - name: "Contact"
    link: /contact
+ - name: "note"
+   link: https://note.com/abogadoron   
  - name: "Memo"
    link: /memo
