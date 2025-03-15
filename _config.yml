@@ -35,7 +35,7 @@ nav:
    link: / # root
  - name: "Contact"
    link: /contact
- - name: "note"
+ - name: "Note"
    link: https://note.com/abogadoron   
  - name: "Memo"
    link: /memo
