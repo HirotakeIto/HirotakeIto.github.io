@@ -25,6 +25,10 @@ layout: default
 * 石川善樹, 伊藤寛武, 植村理, 田端紳, 外山理沙子, 中室牧子, & 山口一大. (2017). 子どもの能力を計測するための学力テストの現在と展望―エビデンスに基づく教育政策に向けて―. RIETI Policy Discussion Paper Series 17-P-010.
 
 ## Books
+* [原因と結果を武器にする思考](https://amzn.asia/d/03CmwCAK)
+
+因果推論/効果検証を使ってビジネスで価値を出すための心構えを考えまとめた本を執筆しました
+
 * [Pythonで学ぶ効果検証入門](https://amzn.asia/d/eURWVv9)([サポートページ](https://github.com/HirotakeIto/intro_to_impact_evaluation_with_python))
 
 実務に寄り添った効果検証の入門書を執筆しました。
@@ -43,6 +47,10 @@ layout: default
 効果検証の入門について話しました。資料は[こちら](https://speakerdeck.com/ito_hirotake/xiao-guo-jian-zheng-ru-men-noru-men-qian-ban)。
 
 ## Others
+* 財務省様 研修講師
+
+因果推論/効果検証についての研修講師を務めました。
+
 * 株式会社エスタイル様 研修講師
 
 因果推論/効果検証についての研修講師を務めました。
